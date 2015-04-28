@@ -50,6 +50,7 @@ var styles = StyleSheet.create({
     alignSelf: 'center',
     margin: 5,
     marginRight : 5,
+    flex: 1,
     color: '#656565' 
   },
   description: {
