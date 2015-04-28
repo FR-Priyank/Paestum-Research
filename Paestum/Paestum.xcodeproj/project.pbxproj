@@ -350,6 +350,8 @@
 		99ADE6F31AEE0887004E1342 /* UIView+React.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ADE6BC1AEE0887004E1342 /* UIView+React.m */; };
 		99ADE6F71AEE08A9004E1342 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ADE6F61AEE0887004E1342 /* libReact.a */; };
 		99ADE7051AEE30E3004E1342 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 99ADE7041AEE30E3004E1342 /* main.jsbundle */; };
+		99ADE7121AEF6205004E1342 /* RCTWebSocketDebugger.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ADE48E1AEE07A6004E1342 /* RCTWebSocketDebugger.xcodeproj */; };
+		99ADE7141AEF6390004E1342 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ADE7131AEF6390004E1342 /* libicucore.dylib */; };
 		99D4A9501AD26DFF00E3A3AB /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94D1AD26DFF00E3A3AB /* bookmark.png */; };
 		99D4A9511AD26DFF00E3A3AB /* bookmarkselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94E1AD26DFF00E3A3AB /* bookmarkselected.png */; };
 		99D4A9521AD26DFF00E3A3AB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94F1AD26DFF00E3A3AB /* share.png */; };
@@ -941,6 +943,7 @@
 		99ADE6BB1AEE0887004E1342 /* UIView+React.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+React.h"; sourceTree = "<group>"; };
 		99ADE6BC1AEE0887004E1342 /* UIView+React.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+React.m"; sourceTree = "<group>"; };
 		99ADE7041AEE30E3004E1342 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../main.jsbundle; sourceTree = "<group>"; };
+		99ADE7131AEF6390004E1342 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		99D4A94D1AD26DFF00E3A3AB /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark.png; path = Resources/bookmark.png; sourceTree = "<group>"; };
 		99D4A94E1AD26DFF00E3A3AB /* bookmarkselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmarkselected.png; path = Resources/bookmarkselected.png; sourceTree = "<group>"; };
 		99D4A94F1AD26DFF00E3A3AB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = Resources/share.png; sourceTree = "<group>"; };
@@ -980,6 +983,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99ADE7141AEF6390004E1342 /* libicucore.dylib in Frameworks */,
+				99ADE7121AEF6205004E1342 /* RCTWebSocketDebugger.xcodeproj in Frameworks */,
 				99ADE6F71AEE08A9004E1342 /* libReact.a in Frameworks */,
 				99ADE6291AEE07B1004E1342 /* libRCTActionSheet.a in Frameworks */,
 				99ADE62A1AEE07B1004E1342 /* libRCTAdSupport.a in Frameworks */,
@@ -2508,6 +2513,7 @@
 		99D4A98F1AD3904800E3A3AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99ADE7131AEF6390004E1342 /* libicucore.dylib */,
 				99D4A98D1AD38F0300E3A3AB /* Foundation.framework */,
 				99D4A98B1AD38EFC00E3A3AB /* CoreGraphics.framework */,
 				99D4A9891AD38EF000E3A3AB /* UIKit.framework */,

@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // Add border to the view
     self.reactView.layer.borderWidth = 1.0F;
     self.reactView.layer.borderColor = [UIColor blackColor].CGColor;
 }
@@ -30,6 +31,10 @@
 
 - (void)viewDidAppear:(BOOL)animated{
     //Refresh the React view contents as images are not loading when you come back to this view controller again after navigating else where
+    [self.reactView refresh];
+}
+
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
     [self.reactView refresh];
 }
 

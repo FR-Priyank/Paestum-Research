@@ -21,7 +21,7 @@ var styles = StyleSheet.create({
   },
   maincontainer:{
     padding:5,
-    marginTop: 75,
+    marginTop: 5,
     flex:1
   },
 
