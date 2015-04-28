@@ -349,6 +349,7 @@
 		99ADE6F21AEE0887004E1342 /* RCTWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ADE6BA1AEE0887004E1342 /* RCTWrapperViewController.m */; };
 		99ADE6F31AEE0887004E1342 /* UIView+React.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ADE6BC1AEE0887004E1342 /* UIView+React.m */; };
 		99ADE6F71AEE08A9004E1342 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ADE6F61AEE0887004E1342 /* libReact.a */; };
+		99ADE7051AEE30E3004E1342 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 99ADE7041AEE30E3004E1342 /* main.jsbundle */; };
 		99D4A9501AD26DFF00E3A3AB /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94D1AD26DFF00E3A3AB /* bookmark.png */; };
 		99D4A9511AD26DFF00E3A3AB /* bookmarkselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94E1AD26DFF00E3A3AB /* bookmarkselected.png */; };
 		99D4A9521AD26DFF00E3A3AB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4A94F1AD26DFF00E3A3AB /* share.png */; };
@@ -939,6 +940,7 @@
 		99ADE6BA1AEE0887004E1342 /* RCTWrapperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWrapperViewController.m; sourceTree = "<group>"; };
 		99ADE6BB1AEE0887004E1342 /* UIView+React.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+React.h"; sourceTree = "<group>"; };
 		99ADE6BC1AEE0887004E1342 /* UIView+React.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+React.m"; sourceTree = "<group>"; };
+		99ADE7041AEE30E3004E1342 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../main.jsbundle; sourceTree = "<group>"; };
 		99D4A94D1AD26DFF00E3A3AB /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark.png; path = Resources/bookmark.png; sourceTree = "<group>"; };
 		99D4A94E1AD26DFF00E3A3AB /* bookmarkselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmarkselected.png; path = Resources/bookmarkselected.png; sourceTree = "<group>"; };
 		99D4A94F1AD26DFF00E3A3AB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = Resources/share.png; sourceTree = "<group>"; };
@@ -1233,6 +1235,7 @@
 		994C09911AC1564E00B0100A = {
 			isa = PBXGroup;
 			children = (
+				99ADE7041AEE30E3004E1342 /* main.jsbundle */,
 				99ADE3C91AEE07A6004E1342 /* Libraries */,
 				99D4A98F1AD3904800E3A3AB /* Frameworks */,
 				994C099C1AC1564E00B0100A /* Paestum */,
@@ -2806,6 +2809,7 @@
 				99ADE5D81AEE07A7004E1342 /* RCTRenderingPerf.js in Resources */,
 				99ADE56E1AEE07A7004E1342 /* Image.ios.js in Resources */,
 				99ADE5DD1AEE07A7004E1342 /* getObjectValues.js in Resources */,
+				99ADE7051AEE30E3004E1342 /* main.jsbundle in Resources */,
 				99ADE53A1AEE07A6004E1342 /* AppStateIOS.ios.js in Resources */,
 				99D4A9521AD26DFF00E3A3AB /* share.png in Resources */,
 				99ADE5AF1AEE07A7004E1342 /* renderApplication.ios.js in Resources */,

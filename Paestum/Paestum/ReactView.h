@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ReactView : UIView
-
+-(void)refresh;
 @end

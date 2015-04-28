@@ -25,6 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    //Refresh the React view contents as images are not loading when you come back to this view controller again after navigating else where
+    [self.reactView refresh];
+}
+
 /*
 #pragma mark - Navigation
 
