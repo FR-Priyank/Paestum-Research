@@ -30,7 +30,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 -(void)loadWebView1{
     
     
@@ -61,9 +60,13 @@
 - (void)webViewDidStartLoad:(UIWebView *)webView{
     [self showSpinnerWithMessage:@"Loading" inView:self.cardwebview];
     
+    //self.cardwebview.scalesPageToFit = YES;
+    
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     [self stopSpinner];
+    [self.cardwebview stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"document.querySelector('meta[name=viewport]').setAttribute('content', 'width=%d;', false); ", (int)self.cardwebview.frame.size.width]];
+    //self.cardwebview.scalesPageToFit = YES;
 }
 
 #pragma mark - Helper methods
